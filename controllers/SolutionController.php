@@ -84,8 +84,6 @@ class SolutionController extends Controller
             // 获取解决方案信息
             'solutions' => $this->getSolutionsOfIndex(),
             'recommend_solutions' => $this->getRecommendSolutions(),
-            'hot' =>  Yii::$app->session['HOT'],
-            'new' =>  Yii::$app->session['NEW'],
         ]);
 
     }
